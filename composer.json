@@ -1,0 +1,26 @@
+{
+    "name": "huseyintekin/mvc-project",
+    "description": "Mvc Project",
+    "license": "Htc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Routers\\" : "routers/",
+            "Database\\" : "database/"
+        },
+        "files": [
+            "app/helper/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Huseyin Tekin",
+            "email": "huseyin.tekin@gozendigital.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^v2.5",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
